@@ -4,7 +4,7 @@
 This is the principle repository for (Holloway) Chew, Kean Ho's experimentation
 to develop a pure Rust application, both local and web including supporting
 [Progressive Web Application](https://web.dev/progressive-web-apps/) offline
-mode alongside using pure Go to develop web application entirely.
+mode.
 
 
 
@@ -42,6 +42,8 @@ your repository.
 
 
 ## (2) Local Development
+> WARNING: this step is yet to implement.
+
 The second step is to bring up your local development. Monteur setup local
 filesystem inside the repository. Hence, whenever you open a new terminal to
 wanting to develop this repository, simply do the following:
@@ -118,7 +120,7 @@ is set to have all dependent source codes placed here.
 
 
 
-## (5) Testing Go Workspace
+## (5) Testing Workspace
 With Monteur Test CI Job made available, given the correct recipe, Monteur
 can perform either pinpoint or recursive testing against Rust crates. All the
 user needs to do is:
