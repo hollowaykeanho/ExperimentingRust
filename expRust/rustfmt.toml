@@ -1,0 +1,43 @@
+# Copyright 2022 "Holloway" Chew, Kean Ho <hollowaykeanho@gmail.com>
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+# DEALINGS IN THE SOFTWARE.
+#
+# Refer to: https://github.com/rust-lang/rustfmt/blob/master/Configurations.md
+edition = "2021"
+fn_args_layout = "Vertical"
+match_arm_leading_pipes = "Always"
+match_block_trailing_comma = true
+merge_derives = true
+newline_style = "Unix"
+remove_nested_parens =  true
+reorder_imports = true
+reorder_modules = true
+use_field_init_shorthand = false
+use_try_shorthand = false
+
+# tabs
+hard_tabs = true
+tab_spaces = 8
+
+# widths
+max_width = 100
+single_line_if_else_max_width = 95
+struct_lit_width = 18
+struct_variant_width = 35
+short_array_element_width_threshold = 10
