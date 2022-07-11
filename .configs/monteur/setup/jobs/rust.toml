@@ -11,6 +11,7 @@ Type = 'https-download'
 [Variables]
 BaseURL = 'https://static.rust-lang.org/rustup'
 Toolchain = 'none'
+Profile = 'minimal'
 
 [FMTVariables]
 RustupPath = '{{- .BinDir -}}/rustUP'
@@ -92,7 +93,10 @@ case $1 in
 		;;
 	esac
 
-	if [ ! -z "$(type -p rustc)" ] && [ ! -z "$(type -p cargo)" ]; then
+	if [ ! -z "$(type -p rustc)" ] && \
+		[ ! -z "$(type -p rustup)" ] && \
+		[ ! -z "$(type -p cargo)" ]; then
+		rustup set profile {{ .Profile }}
 		1>&2 printf "[ DONE  ] localized Rust started.\\n"
 	else
 		1>&2 printf "[ ERROR ] localized Rust failed to initalized.\\n"
