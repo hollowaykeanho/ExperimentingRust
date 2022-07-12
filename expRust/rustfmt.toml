@@ -20,7 +20,7 @@
 #
 # Refer to: https://github.com/rust-lang/rustfmt/blob/master/Configurations.md
 edition = "2021"
-fn_args_layout = "Vertical"
+fn_args_layout = "Tall"
 match_arm_leading_pipes = "Always"
 match_block_trailing_comma = true
 merge_derives = true
