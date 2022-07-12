@@ -1,0 +1,18 @@
+[package]
+name = "modules_layout"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "main"
+path = "main.rs"
+
+
+[lib]
+name = "lib"
+path = "lib.rs"
