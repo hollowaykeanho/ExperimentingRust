@@ -19,3 +19,6 @@
 // DEALINGS IN THE SOFTWARE.
 
 pub mod vegetables;
+
+#[cfg(test)]
+mod vegetables_test;
