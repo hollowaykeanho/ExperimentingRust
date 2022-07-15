@@ -1,16 +1,31 @@
+# More info: https://doc.rust-lang.org/cargo/reference/manifest.html
 [package]
 name = "modules_layout_and_testing"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
 
 [dependencies]
+
+
+
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+
 
 
 [[bin]]
 name = "main"
 path = "main.rs"
+
+
 
 
 [lib]
