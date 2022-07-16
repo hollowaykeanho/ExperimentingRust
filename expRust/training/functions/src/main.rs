@@ -22,6 +22,10 @@ fn main() {
 	println!("Hello, world!");
 	another_function();
 	parameterized_function(5, 2);
+
+	// function pointer
+	let x: fn(u8, u8) -> u8 = parameterized_function;
+	x(10, 4);
 }
 
 fn another_function() {
