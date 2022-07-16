@@ -1,0 +1,26 @@
+# More info: https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "closure_type"
+version = "0.1.0"
+edition = "2021"
+
+
+
+
+[dependencies]
+
+
+
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+
+
+
+[[bin]]
+name = "main"
+path = "main.rs"
