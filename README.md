@@ -6,6 +6,16 @@ to develop a pure Rust application, both local and web including supporting
 [Progressive Web Application](https://web.dev/progressive-web-apps/) offline
 mode.
 
+> **UPDATE October 9, 2022**
+>
+> I'm no longer maintaining this repository since I had successfully developed and
+> integrated Rust modules (with and without) crate supports at:
+>
+> https://github.com/ZORALab/Hestia
+>
+> Hence, new development and dedication shall appear in that new repository.
+> See you there! This package shall now be safely archived for past references.
+
 
 
 
